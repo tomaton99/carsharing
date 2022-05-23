@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Индекс Драйв - аренда автомобилей</title>
+	<link rel="stylesheet" href="dd.css">
+	<link rel="icon" href="fav.svg" type="image/svg">
+</head>
+<body>
+<header>
+	<table>
+	<tr>
+		<td>
+		<a href="index.htm"><img src="unn.png" width="200" height="100"></a>
+		</td>
+		<td></td>
+		<td><a href="branches.htm" class="con">Филиалы</a></td>
+		<td></td>
+		<td><a href="#" class="con">Бронирование</a></td>
+		<td></td>
+		<td><a href="login.htm" class="con">Личный кабинет</a></td>
+	</tr>
+	</table>
+</header>
+<div class="main" align="left">
+<h2>Доступные карты</h2>
+<figure>
+	<img src="media/images/card/mir.png" height="200" width="300">
+	<figcaption>Номер карты: **** **** **** 5434</figcaption>
+	<p>Карта активна</p>
+</figure>
+<figure>
+	<img src="media/images/card/visa.png" height="200" width="300">
+	<figcaption>Номер карты: **** **** **** 3078</figcaption>
+	<p>Карта активна</p>
+</figure>
+<button id="myBtn">Добавить карту</button>
+<button>Удалить карту</button>
+</div>
+
+
+
+
+
+<div id="myModal" class="modal">
+<div class="modal-content">
+	<span class="close">&times;</span>
+	<div class="form"><p align="center">Введите данные карты</p>
+		<form>
+			<form id="vvod"><input id="nomer" type="text" size="16" placeholder="Номер карты"></form>
+			<input id="vlad" type="text" size="11" placeholder="Владелец карты"></input>
+			<p><input id="cvv" type="text" size="1" maxlength="3" placeholder="CVV">
+			<input id="srok" type="text" size="9" placeholder="Срок действия">
+			</p>
+			<form><button id="dobc">Добавить карту</button></form>
+		</form>
+	</div>
+</div></div>
+
+<script>
+var modal = document.getElementById("myModal");
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+for (var i in ['input', 'change', 'blur', 'keyup']){
+	a.addEventListener('input', formatcode, false);
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+body{
+	background-image: url("images/paved.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 20px;
+	font-family: Arial;
+	height: 100%;
+}
+
+.f{
+	width: 270px;
+	height: 120 px;
+	margin: auto;
+	margin-top: 10%;
+	font-size: 15px;
+}
+.rel{
+border: 1
+}
+
+table{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 17pt;
+	border-spacing: collapse;
+	text-align: justify;
+}
+
+
+
+
+.con{
+	color: white;
+	text-decoration:none;
+	position: relative;
+}
+.con:after{
+	position: absolute;
+	left:0;
+	width:0;
+	height: 3px;
+	background-color: red;
+	content: "";
+	transition: width 0.4s;
+	bottom: -2px;
+}
+.con:hover:after, 
+.con:focus:after {
+	width:100%;
+}
+.form{
+	height: 275px;
+	width: 430px;
+	border-radius: 25px;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	font-size: 22px;
+	background-image: url("card1.png");
+	background-size: 100% auto;
+}
+.co{
+	color: white;
+}
+#nomer{
+	position: relative;
+	top: -10px;
+	left: 10%
+	}
+#cvv{
+	position: relative;
+	left: 40%;
+	}
+#srok{
+	position: relative;
+	
+	}
+#vlad{
+	position: relative;
+	top: -15%;
+	left: 55%
+}
+input{
+	height: 20px;
+}
+
+	
+.niz{
+   position: relative;
+   left:0;
+   bottom: 0;
+   width:100%;
+   }
+.nizz{
+   position: fixed;
+   left:0;
+   bottom: 0;
+   width:100%;
+}
+.main{
+	background-color: white;
+	width: 70%;
+	position: relative;
+	left: 15%;
+	text-align: center;
+	opacity: 0.8;
+	overflow: hidden;
+}
+td.man
+
+.karta{
+	position: relative;
+	text-align: center;
+}
+
+
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 10; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(192, 192, 192, 0.8);
+}
+
+.modal-content {
+  margin: 15% auto; 
+  width: 65%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+h1{
+text-align: center;
+}
+#dobc{
+	position: relative;
+	top: 35px;
+	left: 10%;
+}
+#mir{
+	text-align: left;
+	position: relative;
+	left: 5%;
+}
+#visa{
+	position: relative;
+	float: center;
+	top: -15%;
+
+}
+.zag{
+	font-size: 25px;
+	font-family: Arial;
+}
+.news{
+	width: 50%;
+	background-color: #fefefe;
+	position: relative;
+	left: 25%;
+}
+#cardb{
+	position: relative;
+	right: 40%;
+	
+}
+	
+#exit{
+	position: relative;
+	left: 38%;
+	top: 40px;
+}
+#history{
+	position: relative;
+	bottom: 40px;
+}
+#mainhis{
+	float: left;
+	position: relative;
+	
+}
+#mainhisp{
+	position: relative;
+	top: 150px;
+}
+.bookingauto{
+	position: relative;
+	width: 30%;
+	height: 380px;
+	float: left;
+	
+}
+.book-men{
+	position: relative;
+	width: 40%;
+	float: left;
+}
+.oplata{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 380px;
+}
+#knopka{
+	position: relative;
+	top: 12px;
+}
